@@ -359,7 +359,7 @@ citecolor=blue
     \phantomsection
     \markboth{\contentsname}{\contentsname}%
     \begin{center}
-      {\Huge\bfseries\contentsname\par}
+      {\Huge\bfseries\color{TitleRed}\contentsname\par}
     \end{center}
     \vspace{1.5em}
     \@starttoc{toc}%
@@ -634,6 +634,39 @@ def _merge_empty_table_cells(app, doctree, docname):
         # 个别表格可用 :class: no-auto-merge 明确关闭自动合并。
         if 'no-auto-merge' not in table.get('classes', []):
             _merge_empty_cells_in_table(table, logger)
+
+# Sphinx 当前环境未加载内置中文提示块翻译；在输出前统一本地化其标题。
+_ADMONITION_TITLES_ZH = {
+    'attention': '注意',
+    'caution': '小心',
+    'danger': '危险',
+    'error': '错误',
+    'hint': '提示',
+    'important': '重要',
+    'note': '注',
+    'tip': '提示',
+    'warning': '警告',
+}
+
+
+def _localize_admonition_titles(app, doctree, docname):
+    """Replace automatic English admonition headings with Chinese labels."""
+    for admonition in doctree.findall(nodes.admonition):
+        kind = next(
+            (
+                name for name in _ADMONITION_TITLES_ZH
+                if admonition.tagname == name
+                or name in admonition.get('classes', [])
+            ),
+            None,
+        )
+        title = next(
+            (child for child in admonition.children if isinstance(child, nodes.title)),
+            None,
+        )
+        if kind and title is not None:
+            title.clear()
+            title += nodes.Text(_ADMONITION_TITLES_ZH[kind])
 
 
 # -- 自定义 ------------------------------------------------

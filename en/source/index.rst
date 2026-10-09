@@ -11,7 +11,7 @@ JAKA |product_name| are intelligent, lightweight, 6-DOF modular collaborative ro
 
 .. toctree::
    :maxdepth: 3
-   :numbered: 4
+   :numbered: 6
    :caption: Table of Contents
 
    01_statement

@@ -6,7 +6,7 @@ JAKA开创性地采用了移动智能终端加App的控制模式与机器人本�
 JAKA |product_name| 是JAKA推出的智能轻型6自由度模块化协作机器人，属于JAKA模块化协作机器人系列。
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 3
    :numbered: 6
    :caption: 目录
 
