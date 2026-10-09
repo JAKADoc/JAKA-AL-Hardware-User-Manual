@@ -1,0 +1,105 @@
+.. _Emergency Release of the Brake:
+
+Emergency Release of the Brake
+++++++++++++++++++++++++++++++
+
+.. warning::
+
+   - If the brake is released manually, the joint of the robot may move under gravity, so it is necessary to effectively support the robot, tools and workpieces installed on the robot before manually releasing the brake.
+   - At least two persons should be present when releasing the brakes.
+
+When the robot is in an emergency stop state or power has failed, the joints can be moved forcibly as shown below. This brake-release method applies to all |product_name| models and joints except joints 1, 2, and 3 of A20L.
+
+#. Remove the screw securing the joint cover plug.
+#. Remove the joint lid.
+#. Press the plunger in the small solenoid to release the brake manually.
+
+   .. figure:: ../../images/04_安全规范/释放制动器.*
+      :width: 6.16cm
+      :align: center
+
+      Brake pin
+
+Joint 1, 2 and 3 of A20L brake release procedure is as follows when the robot is powered off:
+
+#. Remove the screws on the joint lid as previously mentioned.
+#. Remove the joint lid.
+#. Unplug the brake wire on the driver board (shown in Figure below).
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30关节1和关节2的制动器线.*
+      :width: 11.81cm
+      :align: center
+
+      Brake wire of joint 1 and 2 of A20L
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30关节3的制动器线.*
+      :width: 11.94cm
+      :align: center
+
+      Brake wire of joint 3 of A20L
+
+#. Connect the 24V DC external power supply with automatic reset switch to the terminal of the brake wire (shown in Figure below). Type of the terminal connecting external power is Molex 51021-0200.
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30关节1和关节2外接电源.*
+      :width: 8.46cm
+      :align: center
+
+      Connection of 24V DC external power supply for joint 1 and 2 of A20L
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30关节3外接电源.*
+      :width: 7.33cm
+      :align: center
+
+   Connection of 24V DC external power supply for joint 3 of A20L
+
+#. Press and hold the switch to release the joint brake (the connecting time of the external power supply should not exceed 5 minutes). Release the power switch, the joint is in the braking state.
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30关节1和关节2电源开关连接.*
+      :width: 9.01cm
+      :align: center
+
+      Press and hold power switch button for joint 1 and 2 of A20L
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30关节3电源开关连接.*
+      :width: 7.89cm
+      :align: center
+
+      Press and hold power switch button for joint 3 of A20L
+
+There are two options to release the brake when the robot is powered on:
+
+- Using |jaka_app|
+- Through the brake release button on the joint driver board (only supports joint 1, 2 and 3 of A20L)
+
+Release the brake using |jaka_app| as follows:
+
+#. Ensure that the robot is powered on and disabled.
+#. Open |jaka_app| and go to the manual operation screen.
+#. Press and hold the "Backdrive" button to release the joint brake (shown in Figure below).
+
+   .. figure:: ./images/Backdrive_button_on_Coboπ.*
+      :width: 20cm
+      :align: center
+
+      Backdrive button on |jaka_app|
+
+#. Press and hold the pause/resume button on the robot flange (see :ref:`Pause/Resume Button` for its location) while moving the joint to release the brake of the joint being moved.
+
+The steps to release the brake by the brake release button on the joint driver board are as follows (only supports joint 1, 2 and 3 of A20L):
+
+#. Ensure that the robot is powered on and disabled.
+#. Remove the screws on the joint lid.
+#. Remove the joint lid.
+#. Press the button on the joint driver board to move this joint.
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30的关节1和关节2释放制动器按钮.*
+      :width: 7.38cm
+      :align: center
+
+      Brake release button of joint 1 and joint 2 of A20L
+
+   .. figure:: ../../images/04_安全规范/Zu20和Zu30的关节3释放制动器按钮.*
+      :width: 6.8cm
+      :align: center
+
+      Brake release button of joint 3 of A20L

@@ -1,0 +1,30 @@
+﻿Model,,CAB L,CAB H,CAB LiteAC,CAB LiteDC
+Weight,,12.8 kg (28.2 lb),15 kg (33.1 lb),4.8 kg (10.6 lb),3.5 kg (7.7 lb)
+Dimensions (W*D*H),,421×379×255 mm (16.6×14.9×10.0 in),437×379×255 mm (17.2×14.9×10.0 in),425×196×136 mm (16.7×7.7×5.4 in),425×208×136 mm (16.7×8.2×5.4 in)
+IP classification,,IP54,,IP20,
+Material,,"Steel, aluminum alloy",,,
+Voltage,,100~240 V AC,,,48 V DC
+Voltage tolerance,,±5%,,,
+Frequency,,50/60 Hz,,,/
+Communication,Ethernet,2*Gigabit Ethernet,,,
+,Industrial protocols,"| PROFINET IO Device
+| EtherCAT Master
+| EtherNet/IP Adapter
+| Modbus RTU Master/Slave
+| Modbus TCP Client/Server",,,
+,Expansion,"PROFINET Controller, CC-Link Slave, etc.",,,
+I/O port,,"| 16*DI (NPN/PNP configurable)
+| 16*DO (NPN/PNP configurable)
+| 16*safety DI (default in safety mode, PNP)
+| 16*safety DI (default in safety mode, PNP)
+| HSI (High-speed input) interfaces (multi-mode, differential)
+| 2*emergency stop input signals
+| 2*protective stop input signals",,,
+I/O power supply,,"| Internal: 24 V 3 A
+| External: 24 V 5 A",,,
+Power cord length,,3 m (118 in),,,
+Temperature,,0~50 ºC (32-122 ºF),,,
+Humidity,,10~90%RH,,,
+Altitude,,≤ 2000 m (6562 ft),,,
+Atmospheric pressure,,1 Bar,,,
+Noise,,≤45 dB,,,

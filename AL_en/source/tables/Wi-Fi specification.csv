@@ -1,0 +1,6 @@
+﻿Parameters,Unit,JAKA CAB V3,
+,,2.4G,5G
+Standard,/,802.11 b/g/n,802.11 a/n/ac
+Operating frequency,MHz,"2,400...2,483.5","5,150...5,825"
+Bandwidth,MHz,20 / 40,20 / 40 / 80
+RF Output Power Limit,dBm,20 \ :sup:`1`,23  \ :sup:`2` / 33  \ :sup:`3`

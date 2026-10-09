@@ -1,0 +1,21 @@
+No.,Steps,Operations,References
+1,Robot mounting,Unpack the robot.,
+2,,Remove robot from packaging.,See :ref:`Unpacking <Unpacking>`
+3,,Transport the robot to the intended mounting location.,See :ref:`Handling <Handling>`
+4,,Lift and secure the robot to the platform or foundation.,See :ref:`Mounting the Robot <Mounting-the-Robot>`
+5,,"Secure the tools on the end of the robot, if any.",See :ref:`Mounting the End-Effector <Mounting-the-End-Effector>`
+6,Control cabinet installation,Unpack the control cabinet.,See :ref:`Unpacking <Unpacking>`
+7,,Take out the control cabinet from the packaging materials and carry it to the vicinity of the robot.,See :ref:`Mounting the Control Cabinet <Control cabinet installation>`
+8,Connect the cables,"Connect the robot connection cable, control cabinet power cord, control stick cable, Ethernet cable (if any), and TIO cable (if any) in sequence.","| Refer to  
+|  :ref:`Robot Connection Cable Interface <Robot-Connection-Cable-Interface>`
+|  :ref:`Bottom Panel Interfaces <Bottom-Panel-Interfaces>` 
+|  :ref:`Tool I/O Port <Tool I/O Port>`"
+9,,Flip the toggle switch at the bottom of the control cabinet to turn on the power switch.,See :ref:`Bottom Panel Interfaces <Bottom-Panel-Interfaces>`
+10,,"The emergency stop button on control stick is released by default, if it is pressed, please release it first.",See :ref:`Control Stick Buttons <Control-Stick-Buttons>`
+11,Connect the robot,"Power up the control cabinet, power on and enable the robot with the control stick.",See :ref:`Power On and Shut Down the Robot System <Power On and Shut Down the Robot System>`
+12,,Connect the robot using a computer or pad or mobile phone.,See the |jaka_app| Software User Manual
+13,Configure the power supply,"When the control cabinet is powered by a supply other than 220 V, you must configure the control cabinet power supply to ""Other"" in the JAKA App immediately after connecting the robot.",See the |jaka_app| Software User Manual
+14,Configure the robot,"Set the mounting orientation, payloads and collision sensitivity of the robot in the JAKA App.",See the |jaka_app| Software User Manual
+15,Control the robot,"Press and hold the FREE button on the robot wrist, or move the robot from the manual operation or programming screen in |jaka_app|","| Refer to
+|  :ref:`Free and point button <Free-and-Point-Buttons>`
+|  |jaka_app| Software User Manual"

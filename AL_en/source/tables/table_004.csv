@@ -1,0 +1,5 @@
+﻿"Step","Action"
+"1","Fasten the end-effector to the mounting points provided for this purpose on the robot tool flange (1)"
+"","- Pitch circle diameter DIN ISO 9409-1, 50 mm (1.97 in): 4x M6 (2), tightening torque: 13 Nm (115.05 lbf·in), property class of the screw: 12.9 or greater / - Pitch circle diameter 50 mm (1.97 in): 1x fitting hole diameter 6 H7 (3) / [] / Figure 5‑20: Robot flange"
+"","For further information on the flange dimensions, refer to 5.9.2 Dimensions of Robot Flange."
+"2","Set the payload in Coboπ. For further information, refer to the Coboπ Software User Manual."

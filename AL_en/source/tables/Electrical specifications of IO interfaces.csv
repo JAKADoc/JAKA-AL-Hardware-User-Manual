@@ -1,0 +1,14 @@
+﻿,,Min.,Typ.,Max.,Unit
+Digital input,Voltage,15,24,30,V
+,Current,0.5,2,2.5,mA
+,OFF region (NPN),16,24,30,V
+,ON region (NPN),–3,0,15,V
+,OFF region (PNP),–3,0,8,V
+,ON region (PNP),15,24,30,V
+,Description,/,PNP/NPN,/,Type
+,IEC 61131-2,/,Type1,/,Type
+Digital output,Single Channel Current,/,0.5,/,A
+,Voltage drop,/,1.8,/,V
+,Leakage current,/,0.5,/,mA
+,Description,/,PNP/NPN,/,Type
+,IEC 61131-2,/,Type1,/,Type

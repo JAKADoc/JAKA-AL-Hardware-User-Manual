@@ -1,0 +1,76 @@
+.. _A20L停止时间及停止距离:
+
+A20L停止时间及停止距离
+======================
+
+**Cat.1停止时间及停止距离**
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
+
+   * - 关节1 Cat.1停止时间（ms）
+     - 关节1 Cat.1停止距离（mm）
+   
+   * - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节一Cat.1停止时间.*
+          :width: 8cm
+          :align: center
+     - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节一Cat.1停止距离.*
+          :width: 8cm
+          :align: center
+
+   * - 关节2 Cat.1停止时间（ms）
+     - 关节2 Cat.1停止距离（mm）
+
+   * - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节二Cat.1停止时间.*
+          :width: 8cm
+          :align: center
+     - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节二Cat.1停止距离.*
+          :width: 8cm
+          :align: center
+
+   * - 关节3 Cat.1停止时间（ms）
+     - 关节3 Cat.1停止距离（mm）
+
+   * - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节三Cat.1停止时间.*
+          :width: 8cm
+          :align: center
+     - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节三Cat.1停止距离.*
+          :width: 8cm
+          :align: center
+
+**Cat. 2停止时间及停止距离**
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
+
+   * - 关节1 Cat. 2停止时间（ms）
+     - 关节1 Cat. 2停止距离（mm）
+   
+   * - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节一Cat.2停止时间.*
+          :width: 8cm
+          :align: center
+     - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节一Cat.2停止距离.*
+          :width: 8cm
+          :align: center
+
+   * - 关节2 Cat. 2停止时间（ms）
+     - 关节2 Cat. 2停止距离（mm）
+
+   * - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节二Cat.2停止时间.*
+          :width: 8cm
+          :align: center
+     - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节二Cat.2停止距离.*
+          :width: 8cm
+          :align: center
+
+   * - 关节3 Cat. 2停止时间（ms）
+     - 关节3 Cat. 2停止距离（mm）
+
+   * - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节三Cat.2停止时间.*
+          :width: 8cm
+          :align: center
+     - .. figure:: ./images/停止时间和停止距离/Zu20/Zu20关节三Cat.2停止距离.*
+          :width: 8cm
+          :align: center

@@ -1,0 +1,4 @@
+﻿"Region","Cable Standard","Core Size","Length","Cable OD","Rated Value","Frequency","Cable Material","LN Insulation Level"
+"China","H05VV-F","3×1.5 mm²/ 3×16AWG","3000±50 mm / 118±2 in","8 mm (0.31 in)","15A 125V","60 Hz","PVC","2 kVAC 1 min 50 Hz"
+"Europe","H05VV-F","","","","15A 125V","60 Hz","",""
+"United States / Japan","SJT","3×2.0 mm²/ 3×14AWG","","","15A 125V","60 Hz","",""

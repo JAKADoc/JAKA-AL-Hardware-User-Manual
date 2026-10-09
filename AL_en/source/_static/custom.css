@@ -1,0 +1,109 @@
+.wy-nav-content {
+    max-width: 1200px !important;
+}
+
+.rst-content img {
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .wy-nav-content {
+        max-width: none !important;
+    }
+}
+
+/* 修改标题的颜色 */
+.wy-side-nav-search .wy-dropdown > a,
+.wy-side-nav-search > a {
+    color: #595959 !important; 
+}
+
+/* 修改侧边栏Logo图片的大小 */
+.wy-side-nav-search .logo {
+    max-width: 180px !important;
+}
+
+/* 修改 toctree 的 caption（如“目录”）颜色 */
+.wy-menu-vertical .caption-text {
+    color: #d80c1e !important; /* 将 #ff0000 替换为你想要的颜色 */
+}
+
+/* 1. 侧边栏整体背景色（左侧导航栏的深色区域） */
+.wy-nav-side {
+    background-color: #ededed !important;
+}
+
+/* 2. 侧边栏顶部区域（包含Logo、标题和搜索框）的背景色 */
+.wy-side-nav-search {
+    background-color: #ededed !important; 
+}
+
+/* 3. 侧边栏文本颜色（一级、二级目录文字） */
+.wy-menu-vertical a {
+    color: #595959 !important; 
+}
+
+/* 4. 侧边栏链接悬停/激活时的颜色 */
+.wy-menu-vertical a:hover,
+.wy-menu-vertical a:active {
+    background-color: #d80c1e !important; 
+    color: #ffffff !important;
+}
+
+/* 5. 侧边栏当前激活页面的链接颜色（高亮） */
+.wy-menu-vertical li.current a {
+    color: #595959 !important; /* 激活状态的文字颜色 */
+    background-color: #dbdbdb !important; /* 激活状态的背景色 */
+}
+
+.doc-comments {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #d9d9d9;
+}
+
+.doc-comments h2 {
+    margin-bottom: 1.2rem;
+    color: #d80c1e;
+    font-size: 1.4rem;
+}
+
+.giscus,
+.giscus-frame {
+    width: 100%;
+}
+
+/* Do not constrain table height; keep horizontal scrolling for wide tables. */
+.wy-table-responsive {
+    overflow-x: auto;
+}
+
+/* Sticky table cells render reliably with separated borders. */
+.wy-table-responsive table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Sticky header row. */
+.wy-table-responsive thead th {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #f3f6f8;
+    box-shadow: 0 1px 0 #d6d6d6;
+}
+
+/* Sticky first column. */
+.wy-table-responsive tbody th:first-child,
+.wy-table-responsive tbody td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: #fff;
+}
+
+.wy-table-responsive thead th:first-child {
+    left: 0;
+    z-index: 4;
+}
