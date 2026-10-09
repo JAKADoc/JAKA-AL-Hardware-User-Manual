@@ -17,10 +17,10 @@ build:
 
 python:
   install:
-    - requirements: zh/requirements.txt
+    - requirements: en/requirements.txt
 
 sphinx:
-  configuration: zh/source/conf.py
+  configuration: en/source/conf.py
 
 formats:
   - pdf
