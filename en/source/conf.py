@@ -301,6 +301,9 @@ latex_elements = {
 \usepackage{titlesec}
 \usepackage{xcolor}
 
+% chapter 至 subparagraph 共六级标题均显示编号。
+\setcounter{secnumdepth}{5}
+
 % 定义红色
 \definecolor{TitleRed}{HTML}{D80C1E}
 
