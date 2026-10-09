@@ -476,7 +476,7 @@ latex_additional_files = [
     '_static/backcover.inc',
     '_static/Logo.png',
     '_static/官网二维码.png',
-    '_static/AL系列机器人.pdf',
+    '_static/AL系列机器人.png',
 ]
 
 latex_keep_old_macro_names = True

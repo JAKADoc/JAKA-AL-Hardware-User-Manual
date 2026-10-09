@@ -301,6 +301,9 @@ latex_elements = {
 \usepackage{titlesec}
 \usepackage{xcolor}
 
+% chapter 至 subparagraph 共六级标题均显示编号。
+\setcounter{secnumdepth}{5}
+
 % 定义红色
 \definecolor{TitleRed}{HTML}{D80C1E}
 
@@ -482,7 +485,7 @@ latex_additional_files = [
     '_static/backcover.inc',
     '_static/Logo.png',
     '_static/官网二维码.png',
-    '_static/AL系列机器人.pdf',
+    '_static/AL系列机器人.png',
 ]
 
 latex_keep_old_macro_names = True
@@ -673,6 +676,7 @@ def _localize_admonition_titles(app, doctree, docname):
 
 def setup(app):
     app.connect('doctree-resolved', _merge_empty_table_cells)
+    app.connect('doctree-resolved', _localize_admonition_titles)
     return {
         'version': '1.1.0',
         'parallel_read_safe': True,

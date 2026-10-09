@@ -124,27 +124,27 @@ CAB LiteDC控制柜连接电源步骤如下：
 
 #. 使用一字螺丝刀取下电源端子上的三颗螺钉。
 
-  .. figure:: ../../images/07_运输及调试/螺钉拆卸.*
-     :width: 10cm
-     :align: center
+   .. figure:: ../../images/07_运输及调试/螺钉拆卸.*
+      :width: 10cm
+      :align: center
 
-     螺钉拆卸
+      螺钉拆卸
 
 #. 将PE线，电源线正负极按下图所示顺序插入电源端子接口中。
 
-  .. figure:: ../../images/07_运输及调试/电源接口示意.*
-     :width: 10cm
-     :align: center
+   .. figure:: ../../images/07_运输及调试/电源接口示意.*
+      :width: 10cm
+      :align: center
 
-     电源接口示意
+      电源接口示意
 
 #. 使用一字螺丝刀拧紧螺钉，轻拉电源线，确保已经安装牢固。
 
-  .. figure:: ../../images/07_运输及调试/螺钉安装.*
-     :width: 10cm
-     :align: center
+   .. figure:: ../../images/07_运输及调试/螺钉安装.*
+      :width: 10cm
+      :align: center
 
-     螺钉安装
+      螺钉安装
 
 .. _隔离电源连接:
 

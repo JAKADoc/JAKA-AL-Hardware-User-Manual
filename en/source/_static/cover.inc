@@ -12,7 +12,7 @@
     \vspace{1cm}
 
     % 产品图
-    \includegraphics[width=0.7\textwidth]{AL系列机器人.pdf} \\[1cm]
+    \includegraphics[width=0.7\textwidth]{AL系列机器人.png} \\[1cm]
     
     % Product series
     {\bfseries\fontsize{29pt}{35pt}\selectfont JAKA AL Series\par}
